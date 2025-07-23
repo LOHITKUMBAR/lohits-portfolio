@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lohit Kumbar | Mechanical Engineer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="print.css" media="print">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('dark-theme');
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><i class="fas fa-cogs"></i> Lohit Kumbar</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <ul class="social-icons">
+        <li><a href="https://github.com/LOHITKUMBAR"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/lohit-kumbar-854242239"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+    </nav>
+    <button onclick="toggleTheme()" class="theme-toggle">Toggle Theme</button>
+  </header>
+
+  <main>
+    <section id="about" class="about">
+      <img src="images/profile.jpg" alt="Lohit Kumbar" class="profile-img">
+      <div class="about-text">
+        <h1>Hello, I'm Lohit Kumbar</h1>
+        <h3>Jr. Prototyping Engineer @ Drishti Works</h3>
+        <p>I earned my Mechanical Engineering degree from Padre Conceicao College of Engineering and I specialize in prototyping, CAD design, and automation. My hands‑on skills include SolidWorks, Fusion 360 and fabrication. I’m driven to bring concepts to reality in efficient and innovative ways.</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Smart Helmet</h3>
+          <p>Wearable IoT device with sensors and alert system for accident detection and safety enhancement.</p>
+        </article>
+        <article class="project-card">
+          <h3>Anti-Fire System in an Industry</h3>
+          <p>Automatic detection & suppression system designed for industrial safety.</p>
+        </article>
+        <article class="project-card">
+          <h3>3D Printer Filament Manufacturing Unit Using PET Bottles</h3>
+          <p>A recycling system converting PET waste into usable 3D printing filament.</p>
+        </article>
+        <article class="project-card">
+          <h3>Dust Pollution Control for a Stone Crushing Unit</h3>
+          <p>Automated wetting system for reducing particulate emissions in crushing environments.</p>
+        </article>
+        <article class="project-card">
+          <h3>Geneva Mechanism for Conveyor System</h3>
+          <p>Mechanical solution offering intermittent motion control in conveyor operations.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Arduino Course – FunMinds</li>
+        <li>Public Speaking – NPTEL</li>
+        <li>E-Business – NPTEL</li>
+        <li>Organizational Behaviour – NPTEL</li>
+        <li>Introduction to MATLAB – Coursera</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/yourformid" method="POST" role="form" aria-label="Contact Form">
+        <input type="text" name="name" placeholder="Your Name" aria-label="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" aria-label="Your Email" required>
+        <textarea name="message" placeholder="Your Message" aria-label="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Lohit Kumbar. All rights reserved.</p>
+  </footer>
+</body>
+</html>
